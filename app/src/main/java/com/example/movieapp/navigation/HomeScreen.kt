@@ -71,6 +71,9 @@ fun HomeScreen(navController: NavHostController) {
                     ),
                 content = {
                     items(state.movies.size) {
+                        if (it >= state.movies.size - 1 && !state.endReached && !state.isLoading) {
+                            movieViewModel.loadNextItems()
+                        }
                         ItemUi(
                             itemIndex = it, movieList = state.movies,
                             navController = navController
