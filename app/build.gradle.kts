@@ -67,7 +67,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    // retrofit
+    //retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
@@ -75,7 +75,7 @@ dependencies {
     implementation ("io.coil-kt:coil-compose:2.4.0")
     implementation ("com.google.accompanist:accompanist-coil:0.10.0")
 
-    // viewModel
+    //viewModel
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
     //navigation
